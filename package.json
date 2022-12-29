@@ -1,0 +1,17 @@
+{
+  "name": "searchbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ln node_modules/@antender/thisisfine/thisisfine.dist.js thisisfine.js && ln node_modules/purecss/build/pure.css pure.css",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": { 
+    "http-server": "^14.1.1",
+    "purecss": "^3.0.0",
+    "@antender/thisisfine": "^1.0.0"
+  }
+}

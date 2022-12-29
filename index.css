@@ -1,0 +1,8 @@
+.horizontal-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.spacing {
+	margin: 5px;
+}
